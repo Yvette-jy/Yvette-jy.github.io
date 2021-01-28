@@ -1,0 +1,366 @@
+
+
+<!DOCTYPE html>
+<html lang="en" color-mode=light>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>KBCLearning - Hexo</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate" />
+  
+  <meta name="description" content="Canonical Tensor Decomposit...">
+  <meta name="author" content="John Doe">
+  <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" sizes="180x180">
+  <meta rel="mask-icon" href="/images/icons/stun-logo.svg" color="#333333">
+  
+    <meta rel="msapplication-TileImage" content="/images/icons/favicon-144x144.png">
+    <meta rel="msapplication-TileColor" content="#000000">
+  
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+    
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1445822_s6x2xcokxrl.css">
+
+  
+
+  
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+  
+
+  
+    
+      
+        
+        
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/xcode.min.css" name="highlight-style" mode="light">
+
+      
+        
+        
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/solarized-dark.min.css" name="highlight-style" mode="dark">
+
+      
+  
+
+  <script>
+    var CONFIG = window.CONFIG || {};
+    var ZHAOO = window.ZHAOO || {};
+    CONFIG = {
+      isHome: false,
+      fancybox: true,
+      pjax: false,
+      lazyload: {
+        enable: true,
+        only_post: 'false',
+        loading: '/images/theme/loading.gif'
+      },
+      donate: {
+        enable: false,
+        alipay: '',
+        wechat: ''
+      },
+      galleries: {
+        enable: false
+      },
+      fab: {
+        enable: true,
+        always_show: false
+      },
+      carrier: {
+        enable: true
+      },
+      daovoice: {
+        enable: false
+      },
+      preview: {
+        background: {
+          default: '/images/theme/welcome-image.jpg',
+          api: ''
+        },
+        motto: {
+          default: '我在开了灯的床头下，想问问自己的心啊。',
+          api: 'https://v2.jinrishici.com/one.json',
+          data_contents: '["data","content"]'
+        },
+      },
+      qrcode: {
+        enable: true,
+        type: 'url',
+        image: '',
+      },
+      toc: {
+        enable: true
+      },
+      scrollbar: {
+        model: 'simple'
+      },
+      notification: {
+        enable: false,
+        delay: 4500,
+        list: '',
+        page_white_list: '',
+        page_black_list: ''
+      }
+    }
+  </script>
+
+  
+
+  
+
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+<body class="lock-screen">
+  <div class="loading"></div>
+  
+
+
+  <nav class="navbar">
+    <div class="left">
+      
+        <i class="iconfont iconqrcode j-navbar-qrcode"></i>
+      
+      
+        <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
+      
+    </div>
+    <div class="center">KBCLearning</div>
+    <div class="right">
+      <i class="iconfont iconmenu j-navbar-menu"></i>
+    </div>
+    
+      <div id="qrcode-navbar"></div>
+    
+  </nav>
+
+  
+
+<nav class="menu">
+  <div class="menu-wrap">
+    <div class="menu-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <ul class="menu-content"><li class="menu-item">
+        <a href="/ " class="underline "> 首页</a>
+      </li><li class="menu-item">
+        <a href="/archives/ " class="underline "> 归档</a>
+      </li><li class="menu-item">
+        <a href="/about/ " class="underline "> 关于</a>
+      </li></ul>
+    
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+    
+  </div>
+</nav>
+  <main id="main">
+  <div class="article-wrap">
+    <div class="row container">
+      <div class="col-xl-3"></div>
+      <div class="col-xl-6"><article class="article">
+  <div class="wrap">
+    <section class="head">
+  <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
+  <div class="head-mask">
+    <h1 class="head-title">KBCLearning</h1>
+    <div class="head-info">
+      <span class="post-info-item"><i class="iconfont iconcalendar"></i>January 28, 2021</span>
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>1542</span>
+    </div>
+  </div>
+</section>
+    <section class="main">
+      <section class="content">
+        <h2 id="Canonical-Tensor-Decomposition-for-Knowledge-Base-Completion（用于完善知识库的正则化张量分解技术）—学习笔记"><a href="#Canonical-Tensor-Decomposition-for-Knowledge-Base-Completion（用于完善知识库的正则化张量分解技术）—学习笔记" class="headerlink" title="Canonical Tensor Decomposition for Knowledge Base Completion（用于完善知识库的正则化张量分解技术）—学习笔记"></a>Canonical Tensor Decomposition for Knowledge Base Completion（用于完善知识库的正则化张量分解技术）—学习笔记</h2><h4 id="文章内容"><a href="#文章内容" class="headerlink" title="文章内容"></a>文章内容</h4><p><strong>文章目标：使用CP(Canonical Tensor Decomposition, 正则化张量分解技术)达成较好的知识库完善。</strong></p>
+<p>与其他两种方法相比较，其他两种方式是对CP的一种针对于KB的更加specific的应用，对subject和object的mode有限制，比如：</p>
+<p><em>DistMult: 主语和宾语模式的张量是对称的</em></p>
+<p><em>ComplEx: 主语和宾语模态共享因子的参数，但是互为复共轭</em></p>
+<p><em>CP: 对主语和宾语的范围无限制</em></p>
+<p>然后文章从三个方面对CP进行了一个提升：</p>
+<ol>
+<li><p>文章采用了多种optimation method，并对loss function加以修改(a broader parameter<br>search and a multiclass log-loss)。</p>
+</li>
+<li><p>提出了nuclear p-norms的regularization方式。（此处对nuclear p-norms还不是太理解）</p>
+</li>
+<li><p>a different formulation of the objective：对于宾语缺失的link prediction的关系(i, j, k)中的(?, j, k)，将它的主宾调换，并将predicate的tensor变成倒数(reciprocals)，在建造训练集的时候将训练集扩充为了两倍。</p>
+</li>
+</ol>
+<p>附：<a target="_blank" rel="noopener" href="https://arxiv.org/abs/1806.07297">文章link</a></p>
+<hr>
+<h4 id="基础知识补充"><a href="#基础知识补充" class="headerlink" title="基础知识补充"></a>基础知识补充</h4><h5 id="张量-tensor"><a href="#张量-tensor" class="headerlink" title="张量 (tensor)"></a>张量 (tensor)</h5><p>Def: 不随其他因素变化的用以表示世间万物的量。(the fact of the universe)</p>
+<p>在机器学习中，张量的核心是一个数据容器，通常包含数字。</p>
+<blockquote>
+<p>0维：标量 (scalar)</p>
+<p>1维：向量 (vector)</p>
+<p>2维：矩阵 (matrix)</p>
+<p>3维：立方体 (cube)</p>
+<p>4维：立方体数组</p>
+<p>5维：立方体矩阵</p>
+<p>…</p>
+</blockquote>
+<p>在python中，张量通常用Numpy数组存储。可使用Jupyter Notebooks将数据转换成Numpy数组，以方便用tensorflow处理。</p>
+<figure class="highlight sas"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">x</span> = np.<span class="meta">array</span>([1, 2, 3, 4])</span><br><span class="line">p<span class="meta">rint(</span><span class="meta">x</span>)</span><br><span class="line"></span><br><span class="line">输出：</span><br><span class="line"><span class="meta">array</span>([1, 2, 3, 4])</span><br><span class="line"></span><br><span class="line"># 查看张量具有多个坐标轴</span><br><span class="line"><span class="meta">x</span>.ndim</span><br><span class="line">-&gt;1</span><br></pre></td></tr></table></figure>
+<p>文本数据可以用三维张量存储：(number_of_texts, text, character)</p>
+<p>图片数据可以用四维张量存储：(sample_size, height, width, color_depth)</p>
+<p>视频数据可以用五维张量存储：(sample_size, frames, width, height, color_depth) —帧数</p>
+<p>小结：<em>在用一个张量表示一个单个样本数据之后，对张量的维度进行扩展，就可以表示一组数据集，通常扩展的这个主要时候表示样本数量。</em></p>
+<p>参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/ztf312/article/details/72859014">https://blog.csdn.net/ztf312/article/details/72859014</a></p>
+<hr>
+<h5 id="关于CP分解（张量分解）"><a href="#关于CP分解（张量分解）" class="headerlink" title="关于CP分解（张量分解）"></a>关于CP分解（张量分解）</h5><p><a target="_blank" rel="noopener" href="http://www.xiongfuli.com/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2016-06/tensor-decomposition-cp.html">http://www.xiongfuli.com/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2016-06/tensor-decomposition-cp.html</a></p>
+<hr>
+<h5 id="关于矩阵的迹范数（核范数）"><a href="#关于矩阵的迹范数（核范数）" class="headerlink" title="关于矩阵的迹范数（核范数）"></a>关于矩阵的迹范数（核范数）</h5><p><a target="_blank" rel="noopener" href="https://hyper.ai/wiki/2687">https://hyper.ai/wiki/2687</a></p>
+<p>矩阵的核范数约等于矩阵奇异值的和</p>
+<p>L2范数是指向量各元素的平方和然后求平方根。</p>
+<p>奇异值：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_32742009/article/details/82286434">https://blog.csdn.net/qq_32742009/article/details/82286434</a></p>
+
+      </section>
+      <section class="extra">
+        
+        
+        
+  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1/" rel="tag">知识图谱</a></li></ul> 
+
+        
+  <nav class="nav">
+    <a></a>
+    <a href="/2021/01/01/start-with-%E6%88%91%E7%9A%842020/">start with 我的2020<i class="iconfont iconright"></i></a>
+  </nav>
+
+      </section>
+      
+    </section>
+  </div>
+</article></div>
+      <div class="col-xl-3">
+        
+          
+  <aside class="toc-wrap">
+    <h3 class="toc-title">文章目录：</h3>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Canonical-Tensor-Decomposition-for-Knowledge-Base-Completion%EF%BC%88%E7%94%A8%E4%BA%8E%E5%AE%8C%E5%96%84%E7%9F%A5%E8%AF%86%E5%BA%93%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96%E5%BC%A0%E9%87%8F%E5%88%86%E8%A7%A3%E6%8A%80%E6%9C%AF%EF%BC%89%E2%80%94%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"><span class="toc-text">Canonical Tensor Decomposition for Knowledge Base Completion（用于完善知识库的正则化张量分解技术）—学习笔记</span></a></li></ol>
+  </aside>
+
+        
+      </div>
+    </div>
+  </div>
+</main>
+  
+
+<footer class="footer">
+  <div class="footer-social"><a 
+        href="tencent://message/?Menu=yes&uin=285944014 "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#12B7F5'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconQQ "></i>
+      </a><a 
+        href="https://github.com/Yvette-jy "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#9f7be1'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  icongithub-fill "></i>
+      </a><a 
+        href="mailto:zhangjingyuan8@126.com "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color=#FF3B00" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconmail"></i>
+      </a></div>
+  
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+  
+</footer>
+  
+      <div class="fab fab-plus">
+    <i class="iconfont iconplus"></i>
+  </div>
+  
+  
+  <div class="fab fab-up">
+    <i class="iconfont iconcaret-up"></i>
+  </div>
+  
+  
+    <div class="scrollbar j-scrollbar">
+  <div class="scrollbar-current j-scrollbar-current"></div>
+</div>
+  
+  
+    
+<script src="/js/color-mode.js"></script>
+
+  
+</body>
+
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+
+
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+
+
+
+
+<script src="/js/utils.js"></script>
+<script src="/js/script.js"></script>
+
+
+
+
+
+  <script>
+    (function () {
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      } else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
